@@ -1,0 +1,88 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "461c06f4357e826445a9ed378051f79d",
+    "packages": [
+        {
+            "name": "race4space/php-lib-library",
+            "version": "3.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/race4space/php-lib-library.git",
+                "reference": "c07035ec6e00f0a5b9867e0dd1ba872446258c59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/race4space/php-lib-library/zipball/c07035ec6e00f0a5b9867e0dd1ba872446258c59",
+                "reference": "c07035ec6e00f0a5b9867e0dd1ba872446258c59",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phplibrary\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "race4space",
+                    "email": "race4space@gmail.com"
+                }
+            ],
+            "description": "A PHP Library",
+            "time": "2020-06-04T07:44:17+00:00"
+        },
+        {
+            "name": "race4space/php-lib-xdesign",
+            "version": "2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/race4space/php-lib-xdesign.git",
+                "reference": "d0f71fbacd255e157c22fc91dbc00a6d5018d482"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/race4space/php-lib-xdesign/zipball/d0f71fbacd255e157c22fc91dbc00a6d5018d482",
+                "reference": "d0f71fbacd255e157c22fc91dbc00a6d5018d482",
+                "shasum": ""
+            },
+            "require": {
+                "race4space/php-lib-library": "^3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "phpxdesign\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "race4space",
+                    "email": "race4space@gmail.com"
+                }
+            ],
+            "description": "A Web Desigining Tool",
+            "time": "2021-01-31T19:08:12+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
