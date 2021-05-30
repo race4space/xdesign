@@ -199,7 +199,7 @@
       let obj_ini;
       let obj_menuButton=this.obj_menuButton;
       obj_ini=new Holder;
-      obj_ini.obj_domProperty.innerText="Newx";
+      obj_ini.obj_domProperty.innerText="New";
       obj_ini.obj_design.str_nameEventClick=obj_project.obj_design.str_prefix + "myDesignerButtonClick";
       obj_ini.obj_design.str_valueEventClick="fn_newProjectInstance";
       obj_menuButton.fn_addItem(obj_ini);
