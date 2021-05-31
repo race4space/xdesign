@@ -31,8 +31,7 @@ class ManagerIFrame extends Holder{
         
       //*/
     }
-    fn_navigateRecord(str_url_folder){      
-      alert("str_url_folder: " + str_url_folder);
+    fn_navigateRecord(str_url_folder){            
       let obj_glass=this.obj_delegator.fn_getGlass();
       //obj_glass.location.href="/xdesign/AFrame/index.html?mode=edit";
       let str_url=str_url_folder + "/index.html?mode=edit";
