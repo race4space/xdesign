@@ -1,12 +1,12 @@
 <?php
 
-$str_datetime=date("Y-m-d-H-i-s");                  
+$str_UniqueName=date("Y-m-d-H-i-s");                  
 
 $str_path_server=$_SERVER['DOCUMENT_ROOT'];      
 $folderpath_designInstance=$str_path_server."/xdesign";
 
 $folderpath_projectInstance=$folderpath_designInstance."/AFrame";
-//$folderpath_projectInstance.="/".$str_datetime;
+//$folderpath_projectInstance.="/".$str_UniqueName;
 
 
 $folderpath_projectDestination=$str_path_server."/MyProject";            
