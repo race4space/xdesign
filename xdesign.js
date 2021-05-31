@@ -3241,7 +3241,7 @@ class ManagerIFrame extends Holder{
       
         /*
         let str_path;
-        str_path="http://lokal-mycode.buzz/xdesign-projects/MyProject/index.html?mode=edit";           
+        str_path="/xdesign/AFrame/index.html?mode=edit";           
         //this.obj_delegator.obj_holder.obj_flexPadIframe.fn_setDomAttribute("src", str_path);        
         //*/
         
@@ -3249,7 +3249,7 @@ class ManagerIFrame extends Holder{
     }
     fn_navigateRecord(){      
       let obj_glass=this.obj_delegator.fn_getGlass();
-      obj_glass.location.href="http://lokal-mycode.buzz/xdesign/AFrame/index.html?mode=edit";
+      obj_glass.location.href="/xdesign/AFrame/index.html?mode=edit";
     }
     fn_onComponentReady(){        
       //alert("manageriframe fn_onComponentReady");      
