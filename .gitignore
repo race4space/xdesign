@@ -1,8 +1,7 @@
 .htaccess
 *.log
 *.tmp
-/Assets
-/AFrame
+/Asset
 /vendor
 *.html
-*xdesign.*
+xdesign*.*
