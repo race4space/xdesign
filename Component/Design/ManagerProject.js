@@ -94,15 +94,15 @@
       //if(this.obj_menuButton){this.obj_menuButton.fn_close();}
       this.obj_delegator.fn_runAction("newProject");
     }
-    fn_newProjectCallBack(obj_post){
-      this.obj_delegator.obj_holder.obj_managerIFrame.fn_navigateRecord();
+    fn_newProjectCallBack(obj_post){      
+      this.obj_delegator.obj_holder.obj_managerIFrame.fn_navigateRecord(obj_post.URLProjectInstance);
     }
     fn_openCurrentProject(){
       //if(this.obj_menuButton){this.obj_menuButton.fn_close();}
       this.obj_delegator.fn_runAction("openCurrentProject");
     }
     fn_openCurrentProjectCallBack(obj_post){
-      this.obj_delegator.obj_holder.obj_managerIFrame.fn_navigateRecord();
+      this.obj_delegator.obj_holder.obj_managerIFrame.fn_navigateRecord(obj_post.URLProjectInstance);
     }
     fn_saveProjectInstance(){
       
