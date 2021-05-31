@@ -1,7 +1,0 @@
-/vendor
-*.log
-*.tmp
-/AFrame
-viewInBrowser.html
-xdesign.js
-README.md
