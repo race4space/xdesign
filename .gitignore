@@ -3,4 +3,4 @@
 *.tmp
 /AFrame
 viewInBrowser.html
-xdesign.js
+*xdesign.js
