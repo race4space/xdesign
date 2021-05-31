@@ -1,6 +1,9 @@
-/vendor
 *.log
 *.tmp
+/Assets
 /AFrame
-viewInBrowser.html
-*xdesign.js
+/vendor
+*.html
+*xdesign.*
+
+
