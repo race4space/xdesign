@@ -3249,7 +3249,7 @@ class ManagerIFrame extends Holder{
     }
     fn_navigateRecord(){      
       let obj_glass=this.obj_delegator.fn_getGlass();
-      obj_glass.location.href="http://lokal-mycode.buzz/xdesign-projects/MyProject/index.html?mode=edit";
+      obj_glass.location.href="http://lokal-mycode.buzz/xdesign/AFrame/index.html?mode=edit";
     }
     fn_onComponentReady(){        
       //alert("manageriframe fn_onComponentReady");      
